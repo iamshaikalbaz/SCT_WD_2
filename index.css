@@ -12,7 +12,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #410f0f;
+    background: #269da1;
     
 }
 .container
@@ -115,22 +115,23 @@ body
 }
 @media(max-width:991px){
     .container{
-        height: 280px;
+        height: 480px;
     }
     .clock{
-        width: 200px;
-        height: 200px;
+        width: 350px;
+        height: 350px;
     }
     .clock p{
-        font-size: 25px;
+        font-size: 45px;
+        font-weight: 550;
     }
     .container .btns button{
-        width: 40px;
-        height: 40px;
+        width: 75px;
+        height: 75px;
         color: wheat;
         border-radius: 50%;
         cursor: pointer;
-        font-size: 10px;
+        font-size: 25px;
         margin: 10px;
     }
 }
